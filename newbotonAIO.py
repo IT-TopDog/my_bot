@@ -10,7 +10,7 @@ from text import text_start
 from database import Database
 
 storage = MemoryStorage()
-bot = Bot (token = '6106170119:AAGEOpLI5rqKGQvPPtP9eFznyd-qkyCVQNY')
+bot = Bot (token = '')
 dp = Dispatcher(bot, storage=storage)
 
 
